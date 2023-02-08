@@ -1,6 +1,3 @@
-<!--
-Comment in these badges if they apply to the repository.
-
 ### Code Quality
 [![License](https://img.shields.io/github/license/geekcell/terraform-aws-config-configuration-recorder)](https://github.com/geekcell/terraform-aws-config-configuration-recorder/blob/master/LICENSE)
 [![GitHub release (latest tag)](https://img.shields.io/github/v/release/geekcell/terraform-aws-config-configuration-recorder?logo=github&sort=semver)](https://github.com/geekcell/terraform-aws-config-configuration-recorder/releases)
@@ -32,5 +29,3 @@ Comment in these badges if they apply to the repository.
 [![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/geekcell/terraform-aws-config-configuration-recorder/nist)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=geekcell%2Fterraform-aws-config-configuration-recorder&benchmark=NIST-800-53)
 [![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/geekcell/terraform-aws-config-configuration-recorder/hipaa)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=geekcell%2Fterraform-aws-config-configuration-recorder&benchmark=HIPAA)
 [![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/geekcell/terraform-aws-config-configuration-recorder/fedramp_moderate)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=geekcell%2Fterraform-aws-config-configuration-recorder&benchmark=FEDRAMP+%28MODERATE%29)
-
--->
