@@ -1,3 +1,5 @@
 module "example" {
-  source = "../../"
+  source        = "../../"
+  name          = "my-recorder"
+  subscriptions = ["noreply@example.org"]
 }
