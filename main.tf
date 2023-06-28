@@ -24,8 +24,10 @@ resource "aws_config_delivery_channel" "main" {
 }
 
 module "bucket" {
-  source = "github.com/geekcell/terraform-aws-s3?ref=v1.0"
-  name   = "${var.name}-config-configuration-recorder"
+  source  = "geekcell/s3/aws"
+  version = ">= 1.0.0, < 2.0.0"
+
+  name = "${var.name}-config-configuration-recorder"
 
   expiration                    = 7
   noncurrent_version_expiration = 60
@@ -36,9 +38,10 @@ module "bucket" {
 }
 
 module "notification" {
-  source = "github.com/geekcell/terraform-aws-sns-email-notification?ref=v1.0"
-  name   = "${var.name}-config"
+  source  = "geekcell/sns-email-notification/aws"
+  version = ">= 1.0.0, < 2.0.0"
 
+  name            = "${var.name}-config"
   email_addresses = var.subscriptions
 
   tags = var.tags

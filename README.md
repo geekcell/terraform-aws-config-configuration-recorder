@@ -1,5 +1,5 @@
 <!-- BEGIN_TF_DOCS -->
-[![Geek Cell GmbH](https://raw.githubusercontent.com/geekcell/template-terraform-module/main/docs/assets/logo.svg)](https://www.geekcell.io/)
+[![Geek Cell GmbH](https://raw.githubusercontent.com/geekcell/.github/main/geekcell-github-banner.png)](https://www.geekcell.io/)
 
 ### Code Quality
 [![License](https://img.shields.io/github/license/geekcell/terraform-aws-config-configuration-recorder)](https://github.com/geekcell/terraform-aws-config-configuration-recorder/blob/master/LICENSE)
@@ -7,6 +7,9 @@
 [![Release](https://github.com/geekcell/terraform-aws-config-configuration-recorder/actions/workflows/release.yaml/badge.svg)](https://github.com/geekcell/terraform-aws-config-configuration-recorder/actions/workflows/release.yaml)
 [![Validate](https://github.com/geekcell/terraform-aws-config-configuration-recorder/actions/workflows/validate.yaml/badge.svg)](https://github.com/geekcell/terraform-aws-config-configuration-recorder/actions/workflows/validate.yaml)
 [![Lint](https://github.com/geekcell/terraform-aws-config-configuration-recorder/actions/workflows/linter.yaml/badge.svg)](https://github.com/geekcell/terraform-aws-config-configuration-recorder/actions/workflows/linter.yaml)
+
+<!--
+Comment in if Bridgecrew is configured
 
 ### Security
 [![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/geekcell/terraform-aws-config-configuration-recorder/general)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=geekcell%2Fterraform-aws-config-configuration-recorder&benchmark=INFRASTRUCTURE+SECURITY)
@@ -32,6 +35,8 @@
 [![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/geekcell/terraform-aws-config-configuration-recorder/nist)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=geekcell%2Fterraform-aws-config-configuration-recorder&benchmark=NIST-800-53)
 [![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/geekcell/terraform-aws-config-configuration-recorder/hipaa)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=geekcell%2Fterraform-aws-config-configuration-recorder&benchmark=HIPAA)
 [![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/geekcell/terraform-aws-config-configuration-recorder/fedramp_moderate)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=geekcell%2Fterraform-aws-config-configuration-recorder&benchmark=FEDRAMP+%28MODERATE%29)
+
+-->
 
 
 
