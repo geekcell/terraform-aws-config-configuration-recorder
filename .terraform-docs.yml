@@ -1,10 +1,14 @@
 formatter: "md table"
 header-from: main.tf
 
-content: |-
-  {{ include "docs/logo.md" }}
+recursive:
+  # Enable this if your module has submodules
+  enabled: false
 
-  {{ include "docs/badges.md" }}
+content: |-
+  {{ include "docs/10-header.md" }}
+
+  {{ include "docs/20-badges.md" }}
 
   {{ .Header }}
 
